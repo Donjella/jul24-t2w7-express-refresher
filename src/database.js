@@ -1,5 +1,5 @@
 const { default: mongoose } = require("mongoose")
-
+const { User } = require("./models/UserModel");
 
 async function databaseConnect(targetDatabaseURL = null){
 	console.log("Starting database connection!");
